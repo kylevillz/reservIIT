@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +11,10 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+.title{
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
 }
 
 .account {
@@ -53,6 +57,8 @@ nav .content .links {
 .content .logo a {
   color: #fff;
   font-size: 30px;
+  font-weight: 600;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
 }
 .content .links li {
@@ -294,7 +300,7 @@ nav .content .links {
 }
 
 .banner-content h1 {
-  font-size: 80px;
+  font-size: 85px;
   margin-top: 80px;
 }
 
